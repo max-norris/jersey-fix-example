@@ -9,9 +9,9 @@ This project uses a simple aspect called *Pointless* which will go around any pu
 
 ## Running
 
-Load the project in your IDE and run `ServiceRunner`
-
-Run `mvn clean compile exec:java`
+1) Load the project in your IDE and run `ServiceRunner`
+OR
+2) Run `mvn clean compile exec:java`
 
 The project uses embedded Undertow as the web server, but that should be irrelevant to this.
 
