@@ -38,8 +38,9 @@ Update the POM to use SNAPSHOT, then run same command:
 	
 The output shows that injection happened properly:
 
-	Component uriInfo: org.glassfish.jersey.server.internal.routing.UriRoutingContext@4b69d0dd
+	Pointless aspect called
+	Component uriInfo: org.glassfish.jersey.server.internal.routing.UriRoutingContext@5d7bbd8a
 	Component servletRequest: HttpServletRequestImpl [ GET /api/component ]
-	Component servletResponse: io.undertow.servlet.spec.HttpServletResponseImpl@ae0065b
-	Component basicService: com.mnorris.jersey.springaop.service.BasicService@5664a31
+	Component servletResponse: io.undertow.servlet.spec.HttpServletResponseImpl@241a0e30
+	Component basicService: com.mnorris.jersey.springaop.service.BasicService@529944db
 	Pointless aspect called
