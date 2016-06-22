@@ -15,7 +15,7 @@ OR
 
 The project uses embedded Undertow as the web server, but that should be irrelevant to this.
 
-## Jersey 2.22.2
+## Jersey 2.23.1
 
 Run the following:
 
@@ -30,9 +30,9 @@ The following output will show the aspect being called for both the REST endpoin
 	Component basicService: com.mnorris.jersey.springaop.service.BasicService@284edf9
 	Pointless aspect called
 
-## Jersey 2.23-SNAPSHOT
+## Jersey 2.24-SNAPSHOT
 
-Update the POM to use SNAPSHOT, then run same command:
+Build the 2.24-SNAPSHOT locally with the patch and then update the POM to use SNAPSHOT, then run the same command:
 
 	curl localhost:8081/api/component
 	
